@@ -1,4 +1,4 @@
-const { db, DataTypes } = require("./db/connection.js")
+const { db, DataTypes } = require("../db/connection")
 let Like;
 Like = db.define("like", {
     reactionType: DataTypes.STRING,

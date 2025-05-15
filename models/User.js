@@ -1,5 +1,5 @@
 
-const { db, DataTypes } = require("./db/connection.js")
+const { db, DataTypes } = require("../db/connection")
 let User;
 User = db.define("user", {
     username: DataTypes.STRING,
